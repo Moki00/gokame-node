@@ -1,0 +1,26 @@
+gokame-node/
+│── node_modules/
+│── .env
+│── .gitignore
+│── package.json
+│── package-lock.json
+│── README.md
+│── src/
+	│── config/
+		│── db.js
+		│── emailService.js
+		│── initDB.js
+	│── controllers/
+		│── authController.js
+		│── contactController.js
+		│── userController.js
+	│── middleware/
+		│── authMiddleware.js
+	│── models/
+		│── userModel.js
+		│── contactModel.js
+	│── routes/
+		│── authRoutes.js
+		│── contactRoutes.js
+		│── userRoutes.js
+	│── server.js
